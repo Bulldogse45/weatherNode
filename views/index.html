@@ -1,10 +1,23 @@
 <html>
   <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
   </head>
   <body>
-    <h1>{{location}}<h1>
-
-
+    <h1 class="text-center">{{location}}<h1>
+    <div class="col-xs-6">
+      <ul>
+        <li>Todays Weather: {{todaysMain}}</li>
+        <li>High Temp for today: {{todaysHigh}}</li>
+        <li>Low Temp for today: {{todaysLow}}</li>
+      </ul>
+    </div>
+    <div class="col-xs-6">
+      <ul>
+        <li>Tomorrow's Weather: {{tomorrowsMain}}</li>
+        <li>High Temp for today: {{tomorrowsHigh}}</li>
+        <li>Low Temp for today: {{tomorrowsLow}}</li>
+      </ul>
+    </div>
   </body>
 </html>
